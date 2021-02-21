@@ -85,7 +85,7 @@ class ChatController: UIViewController {
         tableViewChat.frame = view.frame
         //tableView.backgroundColor = .black //you can set the color if needed
         
-        tableViewChat.rowHeight = 80
+        tableViewChat.rowHeight = 82
         
         tableViewChat.delegate = self
         tableViewChat.dataSource = self
@@ -97,7 +97,7 @@ class ChatController: UIViewController {
     func configureNavBar () {
         let appearance = UINavigationBarAppearance()
         appearance.configureWithOpaqueBackground() //just call it
-        appearance.largeTitleTextAttributes = [.foregroundColor: UIColor.white] //enables us to set our textColor of the largeTitle to white
+        appearance.largeTitleTextAttributes = [.foregroundColor: UIColor.black] //enables us to set our textColor of the largeTitle to white
         appearance.titleTextAttributes = [.foregroundColor: UIColor.white] //enables us to set our textColor of the normalTitle to white
         appearance.backgroundColor = #colorLiteral(red: 0.5568627715, green: 0.3529411852, blue: 0.9686274529, alpha: 1)
         
