@@ -62,7 +62,7 @@ class LoginController: UIViewController {
         let btn = UIButton()
         btn.setTitle("Log In", for: .normal)
         btn.backgroundColor = #colorLiteral(red: 0.2392156869, green: 0.6745098233, blue: 0.9686274529, alpha: 1)
-        btn.isEnabled = false
+        btn.isEnabled = true
         btn.setTitleColor(.black, for: .normal)
         btn.setHeight(height: 50)
         btn.layer.cornerRadius = 10
@@ -110,6 +110,12 @@ class LoginController: UIViewController {
     
     @objc func handleLogin () {
         print("logging in..")
+        
+        let alert = UIAlertController(title: "No login enabled", message: "Try on different version", preferredStyle: .alert)
+        let cancel = UIAlertAction(title: "OK", style: .cancel, handler: nil)
+        
+        alert.addAction(cancel)
+        present(alert, animated: true, completion: nil)
     }
     
     @objc func switchToChat () {
