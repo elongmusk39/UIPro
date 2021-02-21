@@ -7,23 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4106D61624E871FA0077FCC4 /* LogInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4106D61524E871FA0077FCC4 /* LogInViewModel.swift */; };
+		4106D61824E881550077FCC4 /* SignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4106D61724E881550077FCC4 /* SignUpController.swift */; };
+		4106D61A24E8FADA0077FCC4 /* SignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4106D61924E8FADA0077FCC4 /* SignUpViewModel.swift */; };
+		4140792624E9B61400D71482 /* ChatController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4140792524E9B61400D71482 /* ChatController.swift */; };
+		4140792824E9D31200D71482 /* NewItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4140792724E9D31200D71482 /* NewItemModel.swift */; };
 		418DFCEF24E709DC00D5D9AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418DFCEE24E709DC00D5D9AF /* AppDelegate.swift */; };
 		418DFCF124E709DC00D5D9AF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418DFCF024E709DC00D5D9AF /* SceneDelegate.swift */; };
-		418DFCF324E709DC00D5D9AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418DFCF224E709DC00D5D9AF /* ViewController.swift */; };
 		418DFCF624E709DC00D5D9AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 418DFCF424E709DC00D5D9AF /* Main.storyboard */; };
 		418DFCF824E709DE00D5D9AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 418DFCF724E709DE00D5D9AF /* Assets.xcassets */; };
 		418DFCFB24E709DE00D5D9AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 418DFCF924E709DE00D5D9AF /* LaunchScreen.storyboard */; };
+		418DFD0324E70B9900D5D9AF /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418DFD0224E70B9900D5D9AF /* LoginController.swift */; };
+		418DFD0524E70D4000D5D9AF /* Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418DFD0424E70D4000D5D9AF /* Layout.swift */; };
+		418DFD0724E70E5100D5D9AF /* TextViewFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418DFD0624E70E5100D5D9AF /* TextViewFrame.swift */; };
+		418DFD0D24E7131B00D5D9AF /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418DFD0C24E7131B00D5D9AF /* CustomTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4106D61524E871FA0077FCC4 /* LogInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewModel.swift; sourceTree = "<group>"; };
+		4106D61724E881550077FCC4 /* SignUpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpController.swift; sourceTree = "<group>"; };
+		4106D61924E8FADA0077FCC4 /* SignUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewModel.swift; sourceTree = "<group>"; };
+		4140792524E9B61400D71482 /* ChatController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatController.swift; sourceTree = "<group>"; };
+		4140792724E9D31200D71482 /* NewItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewItemModel.swift; sourceTree = "<group>"; };
 		418DFCEB24E709DC00D5D9AF /* UIPro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIPro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		418DFCEE24E709DC00D5D9AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		418DFCF024E709DC00D5D9AF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		418DFCF224E709DC00D5D9AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		418DFCF524E709DC00D5D9AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		418DFCF724E709DE00D5D9AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		418DFCFA24E709DE00D5D9AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		418DFCFC24E709DE00D5D9AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		418DFD0224E70B9900D5D9AF /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		418DFD0424E70D4000D5D9AF /* Layout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Layout.swift; sourceTree = "<group>"; };
+		418DFD0624E70E5100D5D9AF /* TextViewFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewFrame.swift; sourceTree = "<group>"; };
+		418DFD0C24E7131B00D5D9AF /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +53,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4106D61424E871E30077FCC4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				4106D61524E871FA0077FCC4 /* LogInViewModel.swift */,
+				4106D61924E8FADA0077FCC4 /* SignUpViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		418DFCE224E709DC00D5D9AF = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +81,54 @@
 		418DFCED24E709DC00D5D9AF /* UIPro */ = {
 			isa = PBXGroup;
 			children = (
-				418DFCEE24E709DC00D5D9AF /* AppDelegate.swift */,
-				418DFCF024E709DC00D5D9AF /* SceneDelegate.swift */,
-				418DFCF224E709DC00D5D9AF /* ViewController.swift */,
-				418DFCF424E709DC00D5D9AF /* Main.storyboard */,
-				418DFCF724E709DE00D5D9AF /* Assets.xcassets */,
-				418DFCF924E709DE00D5D9AF /* LaunchScreen.storyboard */,
+				418DFD0824E7124B00D5D9AF /* Model */,
+				4106D61424E871E30077FCC4 /* ViewModel */,
+				418DFD0924E7125E00D5D9AF /* View */,
+				418DFD0A24E7126600D5D9AF /* Controller */,
+				418DFD0424E70D4000D5D9AF /* Layout.swift */,
+				418DFD0B24E7129B00D5D9AF /* Utilities */,
 				418DFCFC24E709DE00D5D9AF /* Info.plist */,
 			);
 			path = UIPro;
+			sourceTree = "<group>";
+		};
+		418DFD0824E7124B00D5D9AF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4140792724E9D31200D71482 /* NewItemModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		418DFD0924E7125E00D5D9AF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				418DFD0624E70E5100D5D9AF /* TextViewFrame.swift */,
+				418DFD0C24E7131B00D5D9AF /* CustomTextField.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		418DFD0A24E7126600D5D9AF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4140792524E9B61400D71482 /* ChatController.swift */,
+				418DFD0224E70B9900D5D9AF /* LoginController.swift */,
+				4106D61724E881550077FCC4 /* SignUpController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		418DFD0B24E7129B00D5D9AF /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				418DFCEE24E709DC00D5D9AF /* AppDelegate.swift */,
+				418DFCF024E709DC00D5D9AF /* SceneDelegate.swift */,
+				418DFCF424E709DC00D5D9AF /* Main.storyboard */,
+				418DFCF724E709DE00D5D9AF /* Assets.xcassets */,
+				418DFCF924E709DE00D5D9AF /* LaunchScreen.storyboard */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +202,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				418DFCF324E709DC00D5D9AF /* ViewController.swift in Sources */,
+				4106D61624E871FA0077FCC4 /* LogInViewModel.swift in Sources */,
+				418DFD0324E70B9900D5D9AF /* LoginController.swift in Sources */,
+				418DFD0524E70D4000D5D9AF /* Layout.swift in Sources */,
+				4106D61824E881550077FCC4 /* SignUpController.swift in Sources */,
+				4106D61A24E8FADA0077FCC4 /* SignUpViewModel.swift in Sources */,
+				418DFD0D24E7131B00D5D9AF /* CustomTextField.swift in Sources */,
 				418DFCEF24E709DC00D5D9AF /* AppDelegate.swift in Sources */,
 				418DFCF124E709DC00D5D9AF /* SceneDelegate.swift in Sources */,
+				4140792824E9D31200D71482 /* NewItemModel.swift in Sources */,
+				4140792624E9B61400D71482 /* ChatController.swift in Sources */,
+				418DFD0724E70E5100D5D9AF /* TextViewFrame.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,7 +363,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.LongNguyen.UIPro.UIPro;
+				PRODUCT_BUNDLE_IDENTIFIER = com.LongNguyen.UIPro;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -309,7 +381,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.LongNguyen.UIPro.UIPro;
+				PRODUCT_BUNDLE_IDENTIFIER = com.LongNguyen.UIPro;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
