@@ -30,7 +30,7 @@ class ChatController: UIViewController {
 //MARK: - selectors
     
     @objc func showProfile () {
-        print("DEBUG: Show Profile..")
+        //print("Show Profile..")
         
         dismiss(animated: true, completion: nil)
     }
@@ -40,7 +40,7 @@ class ChatController: UIViewController {
         print("adding..")
         var textField = UITextField()
         
-        let alert = UIAlertController (title: "New Items", message: "Add a new item?", preferredStyle: .alert)
+        let alert = UIAlertController (title: "New Items", message: "Wanna add a new item?", preferredStyle: .alert)
         let cancel = UIAlertAction (title: "Cancel", style: .cancel, handler: nil)
         let addNew = UIAlertAction (title: "Add", style: .default) { _ in
             if textField.text?.isEmpty == false {
